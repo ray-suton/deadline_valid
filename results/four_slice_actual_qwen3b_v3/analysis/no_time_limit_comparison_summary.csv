@@ -1,0 +1,11 @@
+benchmark_id,reference_mode,reference_label,policy_a,policy_b,mean_utility_a,mean_utility_b,mean_difference,final_e_value,seq_decision,seq_stop_step,fixed_p_value,fixed_reject,naive_stop_step,naive_final_p_value
+math_gsm8k_actual_qwen3b_v2,no_time_limit,no_limit,greedy,self_consistency_3,0.091667,0.1,-0.008333,0.31442083,continue,,0.7734375,False,,0.7734375
+math_gsm8k_actual_qwen3b_v2,no_time_limit,no_limit,self_consistency_3,greedy,0.1,0.091667,0.008333,0.59035583,continue,,0.5,False,,0.5
+math_gsm8k_actual_qwen3b_v2,no_time_limit,no_limit,self_consistency_3,budget_branch,0.1,0.108333,-0.008333,0.35278333,continue,,0.8125,False,,0.8125
+math_gsm8k_actual_qwen3b_v2,no_time_limit,no_limit,budget_branch,self_consistency_3,0.108333,0.1,0.008333,0.72128333,continue,,0.5,False,,0.5
+reasoning_bbh_exact_actual_qwen3b_v2,no_time_limit,no_limit,greedy,budget_branch,0.483333,0.508333,-0.025,0.19193583,continue,,0.9375,False,,0.9375
+reasoning_bbh_exact_actual_qwen3b_v2,no_time_limit,no_limit,budget_branch,greedy,0.508333,0.483333,0.025,1.39000083,continue,,0.2265625,False,,0.2265625
+knowledge_arc_actual_qwen3b_v2,no_time_limit,no_limit,self_consistency_3,budget_branch,0.866667,0.875,-0.008333,0.5,continue,,1.0,False,,1.0
+knowledge_arc_actual_qwen3b_v2,no_time_limit,no_limit,budget_branch,self_consistency_3,0.875,0.866667,0.008333,1.5,continue,,0.5,False,,0.5
+language_cola_actual_qwen3b_v2,no_time_limit,no_limit,greedy,self_consistency_3,0.5,0.491667,0.008333,0.95833333,continue,,0.5,False,,0.5
+language_cola_actual_qwen3b_v2,no_time_limit,no_limit,self_consistency_3,greedy,0.491667,0.5,-0.008333,0.40833333,continue,,0.875,False,,0.875

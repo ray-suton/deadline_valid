@@ -1,0 +1,11 @@
+benchmark_id,reference_label,policy_a,policy_b,mean_difference,seq_decision,seq_stop_step,fixed_reject,naive_stop_step
+math_gsm8k_actual_qwen3b_v2,no_limit,greedy,self_consistency_3,-0.008333,continue,,False,
+math_gsm8k_actual_qwen3b_v2,no_limit,self_consistency_3,greedy,0.008333,continue,,False,
+math_gsm8k_actual_qwen3b_v2,no_limit,self_consistency_3,budget_branch,-0.008333,continue,,False,
+math_gsm8k_actual_qwen3b_v2,no_limit,budget_branch,self_consistency_3,0.008333,continue,,False,
+reasoning_bbh_exact_actual_qwen3b_v2,no_limit,greedy,budget_branch,-0.025,continue,,False,
+reasoning_bbh_exact_actual_qwen3b_v2,no_limit,budget_branch,greedy,0.025,continue,,False,
+knowledge_arc_actual_qwen3b_v2,no_limit,self_consistency_3,budget_branch,-0.008333,continue,,False,
+knowledge_arc_actual_qwen3b_v2,no_limit,budget_branch,self_consistency_3,0.008333,continue,,False,
+language_cola_actual_qwen3b_v2,no_limit,greedy,self_consistency_3,0.008333,continue,,False,
+language_cola_actual_qwen3b_v2,no_limit,self_consistency_3,greedy,-0.008333,continue,,False,

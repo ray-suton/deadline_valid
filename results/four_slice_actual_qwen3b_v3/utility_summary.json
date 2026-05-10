@@ -1,0 +1,434 @@
+[
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.067724,
+    "mean_utility": 0.033333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.07269,
+    "mean_utility": 0.05,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.069887,
+    "mean_utility": 0.033333,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.067724,
+    "mean_utility": 0.025,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.075825,
+    "mean_utility": 0.033333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.107896,
+    "mean_utility": 0.058333,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.085537,
+    "mean_utility": 0.05,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.075825,
+    "mean_utility": 0.025,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.081669,
+    "mean_utility": 0.033333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.157842,
+    "mean_utility": 0.058333,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.099086,
+    "mean_utility": 0.05,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.081669,
+    "mean_utility": 0.025,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.043863,
+    "mean_utility": 0.258333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.078171,
+    "mean_utility": 0.241667,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.049451,
+    "mean_utility": 0.283333,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.043863,
+    "mean_utility": 0.25,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.043863,
+    "mean_utility": 0.258333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.123025,
+    "mean_utility": 0.25,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.050303,
+    "mean_utility": 0.275,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.043863,
+    "mean_utility": 0.25,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.043863,
+    "mean_utility": 0.258333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.134279,
+    "mean_utility": 0.25,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.050303,
+    "mean_utility": 0.275,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.043863,
+    "mean_utility": 0.25,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.052051,
+    "mean_utility": 0.416667,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.073492,
+    "mean_utility": 0.425,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.052843,
+    "mean_utility": 0.416667,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.052051,
+    "mean_utility": 0.408333,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.056043,
+    "mean_utility": 0.433333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.12383,
+    "mean_utility": 0.433333,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.059411,
+    "mean_utility": 0.441667,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.056043,
+    "mean_utility": 0.425,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.057663,
+    "mean_utility": 0.441667,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.151226,
+    "mean_utility": 0.433333,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.060979,
+    "mean_utility": 0.45,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.057663,
+    "mean_utility": 0.433333,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.078644,
+    "mean_utility": 0.108333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.084412,
+    "mean_utility": 0.1,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.082039,
+    "mean_utility": 0.1,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.1",
+    "deadline_s": 0.1,
+    "mean_latency_s": 0.078644,
+    "mean_utility": 0.091667,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.109338,
+    "mean_utility": 0.233333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.115108,
+    "mean_utility": 0.241667,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.111127,
+    "mean_utility": 0.225,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.15",
+    "deadline_s": 0.15,
+    "mean_latency_s": 0.109338,
+    "mean_utility": 0.216667,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.109338,
+    "mean_utility": 0.233333,
+    "policy_id": "greedy",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.134154,
+    "mean_utility": 0.25,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.111127,
+    "mean_utility": 0.225,
+    "policy_id": "budget_branch",
+    "prompt_count": 120
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "deadline_label": "0.2",
+    "deadline_s": 0.2,
+    "mean_latency_s": 0.109338,
+    "mean_utility": 0.216667,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120
+  }
+]

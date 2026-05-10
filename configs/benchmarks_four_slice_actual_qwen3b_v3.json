@@ -1,0 +1,34 @@
+{
+  "deadlines": [0.1, 0.15, 0.2],
+  "benchmarks": [
+    {
+      "id": "math_gsm8k_actual_qwen3b_v2",
+      "path": "../data/benchmarks/math_gsm8k_actual_qwen3b_v2.jsonl",
+      "comparison_pairs": [
+        ["greedy", "self_consistency_3"],
+        ["self_consistency_3", "budget_branch"]
+      ]
+    },
+    {
+      "id": "reasoning_bbh_exact_actual_qwen3b_v2",
+      "path": "../data/benchmarks/reasoning_bbh_exact_actual_qwen3b_v2.jsonl",
+      "comparison_pairs": [
+        ["greedy", "budget_branch"]
+      ]
+    },
+    {
+      "id": "knowledge_arc_actual_qwen3b_v2",
+      "path": "../data/benchmarks/knowledge_arc_actual_qwen3b_v2.jsonl",
+      "comparison_pairs": [
+        ["self_consistency_3", "budget_branch"]
+      ]
+    },
+    {
+      "id": "language_cola_actual_qwen3b_v2",
+      "path": "../data/benchmarks/language_cola_actual_qwen3b_v2.jsonl",
+      "comparison_pairs": [
+        ["greedy", "self_consistency_3"]
+      ]
+    }
+  ]
+}

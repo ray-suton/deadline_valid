@@ -1,0 +1,19 @@
+{
+  "build_strategy": "concat_v1_actual_plus_tail56_actual",
+  "seed_source": "/home/rui.gao/Desktop/Testing/data/benchmarks/math_gsm8k_seed_v2.jsonl",
+  "base_actual": "/home/rui.gao/Desktop/Testing/data/benchmarks/math_gsm8k_actual_qwen3b_v1.jsonl",
+  "tail_actual": "/tmp/prompt-budget-upgrade-v2/math_gsm8k_actual_qwen3b_v2_tail56.jsonl",
+  "dtype": "float16",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_load_path": "/tmp/testing-hf-cache/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "out": "/home/rui.gao/Desktop/Testing/data/benchmarks/math_gsm8k_actual_qwen3b_v2.jsonl",
+  "prompt_count": 120,
+  "seed": 7,
+  "trace_names": [
+    "greedy",
+    "sample_1",
+    "sample_2",
+    "sample_3",
+    "deliberate"
+  ]
+}

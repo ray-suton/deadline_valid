@@ -1,0 +1,27 @@
+{
+  "policies": [
+    {
+      "id": "greedy",
+      "type": "greedy",
+      "trace_name": "greedy"
+    },
+    {
+      "id": "self_consistency_3",
+      "type": "self_consistency",
+      "trace_names": ["sample_1", "sample_2", "sample_3"]
+    },
+    {
+      "id": "budget_branch",
+      "type": "budget_aware",
+      "greedy_trace": "greedy",
+      "fallback_trace": "deliberate",
+      "confidence_threshold": 0.8
+    },
+    {
+      "id": "selective_abstain",
+      "type": "selective_abstain",
+      "trace_name": "greedy",
+      "confidence_threshold": 0.75
+    }
+  ]
+}

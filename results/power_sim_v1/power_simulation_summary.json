@@ -1,0 +1,207 @@
+{
+  "alpha": 0.05,
+  "prompt_grid": [
+    40,
+    80,
+    120,
+    160
+  ],
+  "recommendations": [
+    {
+      "expected_mean_difference": 0.065,
+      "recommended_prompt_budget": null,
+      "target_power": 0.8,
+      "win_probability": 0.55
+    },
+    {
+      "expected_mean_difference": 0.13,
+      "recommended_prompt_budget": null,
+      "target_power": 0.8,
+      "win_probability": 0.6
+    },
+    {
+      "expected_mean_difference": 0.195,
+      "recommended_prompt_budget": null,
+      "target_power": 0.8,
+      "win_probability": 0.65
+    },
+    {
+      "expected_mean_difference": 0.26,
+      "recommended_prompt_budget": 120,
+      "target_power": 0.8,
+      "win_probability": 0.7
+    }
+  ],
+  "rows": [
+    {
+      "expected_mean_difference": 0.065,
+      "fixed_power": 0.105,
+      "mean_sequential_stop_step": 20.82,
+      "median_sequential_stop_step": 17.0,
+      "naive_reject_rate": 0.218,
+      "prompts": 40,
+      "sequential_power": 0.065,
+      "win_probability": 0.55
+    },
+    {
+      "expected_mean_difference": 0.065,
+      "fixed_power": 0.156,
+      "mean_sequential_stop_step": 30.39,
+      "median_sequential_stop_step": 26.0,
+      "naive_reject_rate": 0.341,
+      "prompts": 80,
+      "sequential_power": 0.097,
+      "win_probability": 0.55
+    },
+    {
+      "expected_mean_difference": 0.065,
+      "fixed_power": 0.188,
+      "mean_sequential_stop_step": 45.55,
+      "median_sequential_stop_step": 36.5,
+      "naive_reject_rate": 0.438,
+      "prompts": 120,
+      "sequential_power": 0.104,
+      "win_probability": 0.55
+    },
+    {
+      "expected_mean_difference": 0.065,
+      "fixed_power": 0.253,
+      "mean_sequential_stop_step": 61.84,
+      "median_sequential_stop_step": 52.0,
+      "naive_reject_rate": 0.474,
+      "prompts": 160,
+      "sequential_power": 0.118,
+      "win_probability": 0.55
+    },
+    {
+      "expected_mean_difference": 0.13,
+      "fixed_power": 0.216,
+      "mean_sequential_stop_step": 21.88,
+      "median_sequential_stop_step": 21.0,
+      "naive_reject_rate": 0.361,
+      "prompts": 40,
+      "sequential_power": 0.122,
+      "win_probability": 0.6
+    },
+    {
+      "expected_mean_difference": 0.13,
+      "fixed_power": 0.387,
+      "mean_sequential_stop_step": 36.96,
+      "median_sequential_stop_step": 34.0,
+      "naive_reject_rate": 0.604,
+      "prompts": 80,
+      "sequential_power": 0.223,
+      "win_probability": 0.6
+    },
+    {
+      "expected_mean_difference": 0.13,
+      "fixed_power": 0.517,
+      "mean_sequential_stop_step": 53.83,
+      "median_sequential_stop_step": 49.0,
+      "naive_reject_rate": 0.699,
+      "prompts": 120,
+      "sequential_power": 0.275,
+      "win_probability": 0.6
+    },
+    {
+      "expected_mean_difference": 0.13,
+      "fixed_power": 0.596,
+      "mean_sequential_stop_step": 70.79,
+      "median_sequential_stop_step": 63.0,
+      "naive_reject_rate": 0.772,
+      "prompts": 160,
+      "sequential_power": 0.332,
+      "win_probability": 0.6
+    },
+    {
+      "expected_mean_difference": 0.195,
+      "fixed_power": 0.371,
+      "mean_sequential_stop_step": 21.97,
+      "median_sequential_stop_step": 20.5,
+      "naive_reject_rate": 0.561,
+      "prompts": 40,
+      "sequential_power": 0.242,
+      "win_probability": 0.65
+    },
+    {
+      "expected_mean_difference": 0.195,
+      "fixed_power": 0.653,
+      "mean_sequential_stop_step": 38.75,
+      "median_sequential_stop_step": 37.0,
+      "naive_reject_rate": 0.807,
+      "prompts": 80,
+      "sequential_power": 0.415,
+      "win_probability": 0.65
+    },
+    {
+      "expected_mean_difference": 0.195,
+      "fixed_power": 0.828,
+      "mean_sequential_stop_step": 56.79,
+      "median_sequential_stop_step": 54.0,
+      "naive_reject_rate": 0.928,
+      "prompts": 120,
+      "sequential_power": 0.604,
+      "win_probability": 0.65
+    },
+    {
+      "expected_mean_difference": 0.195,
+      "fixed_power": 0.915,
+      "mean_sequential_stop_step": 69.2,
+      "median_sequential_stop_step": 62.0,
+      "naive_reject_rate": 0.96,
+      "prompts": 160,
+      "sequential_power": 0.688,
+      "win_probability": 0.65
+    },
+    {
+      "expected_mean_difference": 0.26,
+      "fixed_power": 0.583,
+      "mean_sequential_stop_step": 21.7,
+      "median_sequential_stop_step": 20.0,
+      "naive_reject_rate": 0.736,
+      "prompts": 40,
+      "sequential_power": 0.397,
+      "win_probability": 0.7
+    },
+    {
+      "expected_mean_difference": 0.26,
+      "fixed_power": 0.879,
+      "mean_sequential_stop_step": 37.88,
+      "median_sequential_stop_step": 34.5,
+      "naive_reject_rate": 0.94,
+      "prompts": 80,
+      "sequential_power": 0.676,
+      "win_probability": 0.7
+    },
+    {
+      "expected_mean_difference": 0.26,
+      "fixed_power": 0.972,
+      "mean_sequential_stop_step": 50.38,
+      "median_sequential_stop_step": 47.0,
+      "naive_reject_rate": 0.99,
+      "prompts": 120,
+      "sequential_power": 0.876,
+      "win_probability": 0.7
+    },
+    {
+      "expected_mean_difference": 0.26,
+      "fixed_power": 0.998,
+      "mean_sequential_stop_step": 58.93,
+      "median_sequential_stop_step": 52.0,
+      "naive_reject_rate": 0.998,
+      "prompts": 160,
+      "sequential_power": 0.941,
+      "win_probability": 0.7
+    }
+  ],
+  "seed": 7,
+  "target_power": 0.8,
+  "tie_rate": 0.35,
+  "trials": 1000,
+  "win_probabilities": [
+    0.55,
+    0.6,
+    0.65,
+    0.7
+  ]
+}

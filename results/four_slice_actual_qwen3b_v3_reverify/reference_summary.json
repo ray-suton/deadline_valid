@@ -1,0 +1,146 @@
+[
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "mean_latency_s": 0.3932,
+    "mean_utility": 0.091667,
+    "policy_id": "greedy",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "mean_latency_s": 1.099107,
+    "mean_utility": 0.1,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "mean_latency_s": 0.532035,
+    "mean_utility": 0.108333,
+    "policy_id": "budget_branch",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "math_gsm8k_actual_qwen3b_v2",
+    "mean_latency_s": 0.3932,
+    "mean_utility": 0.075,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "mean_latency_s": 0.24139,
+    "mean_utility": 0.483333,
+    "policy_id": "greedy",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "mean_latency_s": 0.731717,
+    "mean_utility": 0.475,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "mean_latency_s": 0.29151,
+    "mean_utility": 0.508333,
+    "policy_id": "budget_branch",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "reasoning_bbh_exact_actual_qwen3b_v2",
+    "mean_latency_s": 0.24139,
+    "mean_utility": 0.458333,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "mean_latency_s": 0.278617,
+    "mean_utility": 0.866667,
+    "policy_id": "greedy",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "mean_latency_s": 0.845982,
+    "mean_utility": 0.866667,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "mean_latency_s": 0.28416,
+    "mean_utility": 0.875,
+    "policy_id": "budget_branch",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "knowledge_arc_actual_qwen3b_v2",
+    "mean_latency_s": 0.278617,
+    "mean_utility": 0.858333,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "mean_latency_s": 0.411517,
+    "mean_utility": 0.5,
+    "policy_id": "greedy",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "mean_latency_s": 1.28259,
+    "mean_utility": 0.491667,
+    "policy_id": "self_consistency_3",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "mean_latency_s": 0.472226,
+    "mean_utility": 0.458333,
+    "policy_id": "budget_branch",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  },
+  {
+    "benchmark_id": "language_cola_actual_qwen3b_v2",
+    "mean_latency_s": 0.411517,
+    "mean_utility": 0.466667,
+    "policy_id": "selective_abstain",
+    "prompt_count": 120,
+    "reference_label": "no_limit",
+    "reference_mode": "no_time_limit"
+  }
+]

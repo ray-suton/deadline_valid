@@ -1,0 +1,17 @@
+{
+  "deadlines": [1.0, 2.5, 5.0],
+  "benchmarks": [
+    {
+      "id": "toy_exact",
+      "path": "../data/benchmarks/toy_exact.jsonl",
+      "comparison_pairs": [
+        ["greedy", "self_consistency_3"],
+        ["greedy", "budget_branch"],
+        ["greedy", "selective_abstain"],
+        ["self_consistency_3", "budget_branch"],
+        ["self_consistency_3", "selective_abstain"],
+        ["budget_branch", "selective_abstain"]
+      ]
+    }
+  ]
+}

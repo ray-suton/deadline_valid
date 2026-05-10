@@ -1,0 +1,13 @@
+benchmark_id,difficulty,deadline_s,deadline_label,best_policy,best_mean_utility,runner_up_policy,runner_up_mean_utility,margin
+knowledge_arc_actual_qwen3b_v2,medium,0.1,0.1,self_consistency_3,0.425,budget_branch,0.416667,0.008333
+knowledge_arc_actual_qwen3b_v2,medium,0.15,0.15,budget_branch,0.441667,greedy,0.433333,0.008334
+knowledge_arc_actual_qwen3b_v2,medium,0.2,0.2,budget_branch,0.45,greedy,0.441667,0.008333
+language_cola_actual_qwen3b_v2,medium,0.1,0.1,greedy,0.108333,budget_branch,0.1,0.008333
+language_cola_actual_qwen3b_v2,medium,0.15,0.15,self_consistency_3,0.241667,greedy,0.233333,0.008334
+language_cola_actual_qwen3b_v2,medium,0.2,0.2,self_consistency_3,0.25,greedy,0.233333,0.016667
+math_gsm8k_actual_qwen3b_v2,medium,0.1,0.1,self_consistency_3,0.05,budget_branch,0.033333,0.016667
+math_gsm8k_actual_qwen3b_v2,medium,0.15,0.15,self_consistency_3,0.058333,budget_branch,0.05,0.008333
+math_gsm8k_actual_qwen3b_v2,medium,0.2,0.2,self_consistency_3,0.058333,budget_branch,0.05,0.008333
+reasoning_bbh_exact_actual_qwen3b_v2,medium,0.1,0.1,budget_branch,0.283333,greedy,0.258333,0.025
+reasoning_bbh_exact_actual_qwen3b_v2,medium,0.15,0.15,budget_branch,0.275,greedy,0.258333,0.016667
+reasoning_bbh_exact_actual_qwen3b_v2,medium,0.2,0.2,budget_branch,0.275,greedy,0.258333,0.016667

@@ -1,0 +1,17 @@
+benchmark_id,policy_id,reference_mode,reference_label,mean_utility,prompt_count,mean_latency_s
+math_gsm8k_actual_qwen3b_v2,greedy,no_time_limit,no_limit,0.091667,120,0.3932
+math_gsm8k_actual_qwen3b_v2,self_consistency_3,no_time_limit,no_limit,0.1,120,1.099107
+math_gsm8k_actual_qwen3b_v2,budget_branch,no_time_limit,no_limit,0.108333,120,0.532035
+math_gsm8k_actual_qwen3b_v2,selective_abstain,no_time_limit,no_limit,0.075,120,0.3932
+reasoning_bbh_exact_actual_qwen3b_v2,greedy,no_time_limit,no_limit,0.483333,120,0.24139
+reasoning_bbh_exact_actual_qwen3b_v2,self_consistency_3,no_time_limit,no_limit,0.475,120,0.731717
+reasoning_bbh_exact_actual_qwen3b_v2,budget_branch,no_time_limit,no_limit,0.508333,120,0.29151
+reasoning_bbh_exact_actual_qwen3b_v2,selective_abstain,no_time_limit,no_limit,0.458333,120,0.24139
+knowledge_arc_actual_qwen3b_v2,greedy,no_time_limit,no_limit,0.866667,120,0.278617
+knowledge_arc_actual_qwen3b_v2,self_consistency_3,no_time_limit,no_limit,0.866667,120,0.845982
+knowledge_arc_actual_qwen3b_v2,budget_branch,no_time_limit,no_limit,0.875,120,0.28416
+knowledge_arc_actual_qwen3b_v2,selective_abstain,no_time_limit,no_limit,0.858333,120,0.278617
+language_cola_actual_qwen3b_v2,greedy,no_time_limit,no_limit,0.5,120,0.411517
+language_cola_actual_qwen3b_v2,self_consistency_3,no_time_limit,no_limit,0.491667,120,1.28259
+language_cola_actual_qwen3b_v2,budget_branch,no_time_limit,no_limit,0.458333,120,0.472226
+language_cola_actual_qwen3b_v2,selective_abstain,no_time_limit,no_limit,0.466667,120,0.411517
