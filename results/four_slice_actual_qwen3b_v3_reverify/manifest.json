@@ -1,9 +1,9 @@
 {
   "alpha": 0.05,
-  "benchmarks_config_path": "/home/rui.gao/Desktop/Testing/configs/benchmarks_four_slice_actual_qwen3b_v3.json",
+  "benchmarks_config_path": "configs/benchmarks_four_slice_actual_qwen3b_v3.json",
   "comparison_count": 30,
   "generated_at_utc": "2026-04-21T03:40:42.828244+00:00",
-  "policies_config_path": "/home/rui.gao/Desktop/Testing/configs/policies.json",
+  "policies_config_path": "configs/policies.json",
   "prompt_run_count": 5760,
   "reference_comparison_count": 10,
   "reference_prompt_run_count": 1920

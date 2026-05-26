@@ -20,7 +20,7 @@ The schema is the contract. The validator enforces the contract before the main 
 
 ## Current Compatibility Constraint
 
-The current evaluator in [src/utility.py](/home/rui.gao/Desktop/Testing/src/utility.py) and [src/policies.py](/home/rui.gao/Desktop/Testing/src/policies.py) expects each trace to expose:
+The current evaluator in `src/utility.py` and `src/policies.py` expects each trace to expose:
 
 - one canonical answer string
 - one latency
@@ -127,7 +127,7 @@ Recommended upgraded shape:
 
 ## What The Validator Does
 
-The validator in [scripts/validate_trace_bank.py](/home/rui.gao/Desktop/Testing/scripts/validate_trace_bank.py) checks:
+The validator in `scripts/validate_trace_bank.py` checks:
 
 - valid JSONL structure
 - required prompt and trace fields

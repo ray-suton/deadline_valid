@@ -64,9 +64,9 @@ Run the deterministic replay experiment:
 
 ```bash
 python -m src.run_eval \
-  --benchmarks-config configs/benchmarks_four_slice_actual_qwen3b_v3.json \
-  --policies-config configs/policies.json \
-  --output-dir results/four_slice_actual_qwen3b_v3_reproduced
+  --benchmarks configs/benchmarks_four_slice_actual_qwen3b_v3.json \
+  --policies configs/policies.json \
+  --out results/four_slice_actual_qwen3b_v3_reproduced
 ```
 
 Generate analysis summaries:
