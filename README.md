@@ -1,6 +1,6 @@
 # Deadline-Valid Replay Reproducibility Package
 
-This repository contains the reproducibility surface for the experiment:
+This repository contains the reproducibility surface for the Accepted ICML Hypothesis Testing Workshop Paper:
 
 **Deadline-Valid Replay: Anytime-Valid Testing for LLM Inference Policies**
 
